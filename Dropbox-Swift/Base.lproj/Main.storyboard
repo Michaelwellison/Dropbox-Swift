@@ -352,6 +352,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="782"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CW1-XS-aRZ">
+                                        <rect key="frame" x="8" y="702" width="304" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTapSignOutButton:" destination="V5z-pb-nM5" eventType="touchUpInside" id="xmE-nE-paW"/>
+                                            <segue destination="BwN-8m-9cM" kind="push" id="kdY-lz-HUs"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
@@ -794,8 +805,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="elY-Ic-mgd"/>
-        <segue reference="LgY-GB-yZ7"/>
         <segue reference="ZQr-aq-e5Y"/>
+        <segue reference="38f-8S-Yyk"/>
+        <segue reference="kdY-lz-HUs"/>
+        <segue reference="Mpb-8z-GTP"/>
     </inferredMetricsTieBreakers>
 </document>

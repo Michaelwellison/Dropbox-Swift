@@ -33,5 +33,9 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onTapSignOutButton(sender: AnyObject) {
+        println("Button Pressed")
+    
+    }
 
 }
