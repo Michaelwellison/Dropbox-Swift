@@ -24,5 +24,10 @@ class SignInViewController: UIViewController {
     @IBAction func onTapWelcomeButton(sender: AnyObject) {
     navigationController?.popViewControllerAnimated(true)
     }
+    
+    @IBAction func onTapOutsideButtons(sender: AnyObject) {
+        dismissViewControllerAnimated(false, completion: nil)
+    }
+    
 
 }
