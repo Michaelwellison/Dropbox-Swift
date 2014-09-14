@@ -934,6 +934,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KyM-eY-kwt">
+                                <rect key="frame" x="0.0" y="63" width="320" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gV7-fP-eER" kind="push" id="fRJ-xj-vjG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -942,6 +952,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dGC-Ah-XOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4233" y="3059"/>
+        </scene>
+        <!--Camera Uploads-->
+        <scene sceneID="QnW-Sd-BkR">
+            <objects>
+                <viewController id="gV7-fP-eER" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Ai-Se-6fQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MichaelDropboxPhoto1" id="ZbS-Vn-Gwv">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ANz-yY-PBh">
+                                <rect key="frame" x="0.0" y="157" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eJ6-g4-sFL" kind="push" id="s3C-RE-I0T"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Camera Uploads" id="aUd-bg-8OQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0ZI-O5-38r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4641" y="3058"/>
+        </scene>
+        <!--Photo Detail View Controller-->
+        <scene sceneID="0P0-03-UBn">
+            <objects>
+                <viewController id="eJ6-g4-sFL" customClass="PhotoDetailViewController" customModule="Dropbox_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dUa-w2-MhP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photoUnstarred" id="T3E-KK-Wjb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oRi-Bs-tHu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mqf-70-q3f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5037" y="3058"/>
         </scene>
         <!--Photos-->
         <scene sceneID="Caw-lg-sqU">
@@ -1129,6 +1191,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="MichaelDropboxPhoto1" width="320" height="568"/>
         <image name="create1" width="320" height="568"/>
         <image name="create2" width="320" height="568"/>
         <image name="create3" width="320" height="568"/>
@@ -1142,6 +1205,7 @@
         <image name="existing_photos" width="320" height="725"/>
         <image name="files_tab" width="30" height="30"/>
         <image name="logged_out" width="320" height="568"/>
+        <image name="photoUnstarred" width="640" height="1136"/>
         <image name="photos_tab" width="30" height="30"/>
         <image name="settings" width="320" height="772"/>
         <image name="settings_tab" width="30" height="30"/>
