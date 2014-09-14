@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D563A80E19C4CDEB0020FDC1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563A80D19C4CDEB0020FDC1 /* SettingsViewController.swift */; };
 		D563A81019C520050020FDC1 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563A80F19C520050020FDC1 /* PhotoDetailViewController.swift */; };
+		D563A81219C52DFD0020FDC1 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563A81119C52DFD0020FDC1 /* FilesViewController.swift */; };
 		D57B0FA419C3FCA0001EFFB9 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B0FA319C3FCA0001EFFB9 /* CreateAccountRootViewController.swift */; };
 		D57B0FA619C3FCC2001EFFB9 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B0FA519C3FCC2001EFFB9 /* SignInRootViewController.swift */; };
 		D57B0FA819C40116001EFFB9 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B0FA719C40116001EFFB9 /* CreateAccountViewController.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		D563A80D19C4CDEB0020FDC1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D563A80F19C520050020FDC1 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		D563A81119C52DFD0020FDC1 /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
 		D57B0FA319C3FCA0001EFFB9 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		D57B0FA519C3FCC2001EFFB9 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		D57B0FA719C40116001EFFB9 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				D5C8712819C1670200941759 /* AppDelegate.swift */,
 				D5C8712A19C1670200941759 /* ViewController.swift */,
 				D5C8712C19C1670200941759 /* Main.storyboard */,
+				D563A81119C52DFD0020FDC1 /* FilesViewController.swift */,
 				D563A80F19C520050020FDC1 /* PhotoDetailViewController.swift */,
 				D563A80D19C4CDEB0020FDC1 /* SettingsViewController.swift */,
 				D57B0FA719C40116001EFFB9 /* CreateAccountViewController.swift */,
@@ -237,6 +240,7 @@
 				D57B0FA419C3FCA0001EFFB9 /* CreateAccountRootViewController.swift in Sources */,
 				D5C8712B19C1670200941759 /* ViewController.swift in Sources */,
 				D563A81019C520050020FDC1 /* PhotoDetailViewController.swift in Sources */,
+				D563A81219C52DFD0020FDC1 /* FilesViewController.swift in Sources */,
 				D5C8712919C1670200941759 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

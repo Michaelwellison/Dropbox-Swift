@@ -16,10 +16,18 @@ class PhotoDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tabBarController?.tabBar.hidden = true 
-
+        
     }
-
+    
+    override func viewWillAppear(animated: Bool) {
+        tabBarController?.tabBar.hidden = true
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        tabBarController?.tabBar.hidden = false
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
