@@ -172,7 +172,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" id="Y2A-pg-2gJ">
-                                <rect key="frame" x="93" y="145" width="227" height="42"/>
+                                <rect key="frame" x="93" y="145" width="227" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" minimumFontSize="17" id="kHv-EF-54k">
@@ -405,7 +405,7 @@
             </objects>
             <point key="canvasLocation" x="1539" y="1078"/>
         </scene>
-        <!--Files-->
+        <!--Photos-->
         <scene sceneID="4Y6-lr-eaZ">
             <objects>
                 <viewController id="htj-WJ-sbv" sceneMemberID="viewController">
@@ -413,14 +413,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_files" id="YUL-Pe-Fd4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_photos" id="YUL-Pe-Fd4">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Files" id="ZbP-8m-sf6"/>
+                    <navigationItem key="navigationItem" title="Photos" id="ZbP-8m-sf6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xrY-5r-aAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -434,14 +434,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_photos" id="oZQ-6O-zwl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_favorites" id="oZQ-6O-zwl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Photos" id="xOm-5O-VJk"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="xOm-5O-VJk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhQ-Vd-QOw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -471,7 +471,7 @@
                                         </state>
                                         <connections>
                                             <action selector="onTapSignOutButton:" destination="V5z-pb-nM5" eventType="touchUpInside" id="xmE-nE-paW"/>
-                                            <segue destination="HB4-Kk-tbZ" kind="push" id="4lt-8B-ZjE"/>
+                                            <segue destination="BwN-8m-9cM" kind="push" id="2k2-SU-Fj4"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -488,7 +488,7 @@
             </objects>
             <point key="canvasLocation" x="5883" y="-2203"/>
         </scene>
-        <!--Favorites-->
+        <!--Files-->
         <scene sceneID="KR7-PI-dzr">
             <objects>
                 <viewController id="3n1-Cs-BHo" sceneMemberID="viewController">
@@ -496,14 +496,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_favorites" id="Pid-1k-g0h">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_files" id="Pid-1k-g0h">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Favorites" id="6ex-Co-P4d"/>
+                    <navigationItem key="navigationItem" title="Files" id="6ex-Co-P4d"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zfi-hY-ddw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -847,11 +847,11 @@
             </objects>
             <point key="canvasLocation" x="5351" y="-935"/>
         </scene>
-        <!--title-->
+        <!--Favorites-->
         <scene sceneID="RZU-qI-W3Y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nlp-CF-lBS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="title" image="photos_tab" id="Qlc-S8-hSx"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" id="Qlc-S8-hSx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q5g-p9-GLg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1014,7 +1014,7 @@
             </objects>
             <point key="canvasLocation" x="3188" y="1078"/>
         </scene>
-        <!--Files-->
+        <!--Photos-->
         <scene sceneID="pDq-sT-TRu">
             <objects>
                 <viewController id="5kQ-g7-v5w" customClass="FilesViewController" customModule="Dropbox_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -1022,7 +1022,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="existing_files" id="y0K-4A-fv2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="existing_photos" id="y0K-4A-fv2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -1032,14 +1032,11 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="gV7-fP-eER" kind="push" id="fRJ-xj-vjG"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Files" id="m6K-cN-YqD"/>
+                    <navigationItem key="navigationItem" title="Photos" id="m6K-cN-YqD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dGC-Ah-XOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1112,7 +1109,7 @@
             </objects>
             <point key="canvasLocation" x="5037" y="3058"/>
         </scene>
-        <!--Photos-->
+        <!--Favorites-->
         <scene sceneID="Caw-lg-sqU">
             <objects>
                 <viewController id="CTO-Yi-dMY" sceneMemberID="viewController">
@@ -1120,14 +1117,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="existing_photos" id="cbM-Lv-LZb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_favorites" id="cbM-Lv-LZb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Photos" id="jd6-Yp-anP"/>
+                    <navigationItem key="navigationItem" title="Favorites" id="jd6-Yp-anP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AGM-AP-f4J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1174,22 +1171,32 @@
             </objects>
             <point key="canvasLocation" x="4233" y="1791"/>
         </scene>
-        <!--Favorites-->
+        <!--Files-->
         <scene sceneID="Xfo-KJ-jdT">
             <objects>
-                <viewController id="KIi-ke-BFn" sceneMemberID="viewController">
+                <viewController id="KIi-ke-BFn" customClass="ViewController" customModule="Dropbox_Swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LC1-pX-93W">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="empty_favorites" id="8TO-lQ-Ix1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="existing_files" id="8TO-lQ-Ix1">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qD0-Tb-WdP">
+                                <rect key="frame" x="0.0" y="66" width="320" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gV7-fP-eER" kind="push" id="B3a-s0-9aY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Favorites" id="N59-an-Ml9"/>
+                    <navigationItem key="navigationItem" title="Files" id="N59-an-Ml9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F45-zV-NQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1255,11 +1262,11 @@
             </objects>
             <point key="canvasLocation" x="3701" y="3059"/>
         </scene>
-        <!--title-->
+        <!--Favorites-->
         <scene sceneID="NjS-0x-67e">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Arg-4R-iJm" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="title" image="photos_tab" id="384-9j-U49"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" id="384-9j-U49"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QWG-UU-cG1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -1311,6 +1318,7 @@
         <image name="empty_photos" width="320" height="454"/>
         <image name="existing_files" width="320" height="454"/>
         <image name="existing_photos" width="320" height="725"/>
+        <image name="favorites_tab" width="30" height="30"/>
         <image name="files_tab" width="30" height="30"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="photoUnstarred" width="640" height="1136"/>
@@ -1334,11 +1342,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="0fM-yS-xdH"/>
         <segue reference="Mpb-8z-GTP"/>
-        <segue reference="g2u-RK-ZiW"/>
-        <segue reference="R2f-I6-12y"/>
-        <segue reference="38f-8S-Yyk"/>
+        <segue reference="2k2-SU-Fj4"/>
         <segue reference="ZQr-aq-e5Y"/>
+        <segue reference="38f-8S-Yyk"/>
+        <segue reference="R2f-I6-12y"/>
         <segue reference="gTM-Ks-jMU"/>
-        <segue reference="6ea-v7-TlX"/>
     </inferredMetricsTieBreakers>
 </document>
