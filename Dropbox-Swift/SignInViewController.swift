@@ -8,20 +8,50 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class SignInViewController: UIViewController, UITextFieldDelegate {
+    
+    // MARK: Outlets
+    
+    @IBOutlet weak var emailTextField: UITextField?
+    @IBOutlet weak var passwordTextField: UITextField!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        navigationController?.navigationBarHidden = true
 
-        // Do any additional setup after loading the view.
+        navigationController?.navigationBarHidden = true
+        configureTextFields()
     }
 
+    // MARK: Configuration
+    
+    func configureTextFields() {
+        
+        if (emailTextField != nil) {
+            emailTextField?.delegate = self
+        }
+        if (passwordTextField != nil) {
+            passwordTextField?.delegate = self
+        }
+    }
+    
+    // MARK: Text Field Delegate
+    
+ 
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+    
+    
+    // MARK: Actions
     
     @IBAction func onTapWelcomeButton(sender: AnyObject) {
     navigationController?.popViewControllerAnimated(true)
@@ -31,5 +61,8 @@ class SignInViewController: UIViewController {
         dismissViewControllerAnimated(false, completion: nil)
     }
     
+    @IBAction func endEditing(sender: AnyObject) {
+        view.endEditing(true)
+    }
 
 }

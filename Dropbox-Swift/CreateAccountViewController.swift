@@ -45,25 +45,17 @@ class CreateAccountViewController: UIViewController, UITextFieldDelegate {
         if (passwordTextField != nil) {
             passwordTextField?.delegate = self
         }
-        
-        // firstNameTextField.delegate = self
-        // lastNameTextField.delegate = self
-        // emailTextField.delegate = self
-        // passwordTextField.delegate = self
     }
     
     // MARK: Text Field Delegate
     
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         
-        println("TextFieldChanged")
-        
         return true
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
-        println("Text Field Should Return")
         textField.resignFirstResponder()
         
         return true
