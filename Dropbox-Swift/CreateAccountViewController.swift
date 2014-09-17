@@ -19,7 +19,7 @@ class CreateAccountViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        navigationController?.navigationBarHidden = true
         configureTextFields()
         
     }

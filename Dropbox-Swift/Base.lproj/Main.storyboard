@@ -502,6 +502,7 @@
                                         </state>
                                         <connections>
                                             <action selector="onTapSignOutButton:" destination="V5z-pb-nM5" eventType="touchUpInside" id="xmE-nE-paW"/>
+                                            <segue destination="HB4-Kk-tbZ" kind="push" id="4lt-8B-ZjE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1364,9 +1365,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="0fM-yS-xdH"/>
         <segue reference="LgY-GB-yZ7"/>
-        <segue reference="cR7-j5-muq"/>
-        <segue reference="elY-Ic-mgd"/>
+        <segue reference="4lt-8B-ZjE"/>
         <segue reference="ZQr-aq-e5Y"/>
+        <segue reference="elY-Ic-mgd"/>
         <segue reference="R2f-I6-12y"/>
+        <segue reference="g2u-RK-ZiW"/>
     </inferredMetricsTieBreakers>
 </document>
