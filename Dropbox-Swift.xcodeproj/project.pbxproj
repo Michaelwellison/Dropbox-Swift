@@ -20,6 +20,7 @@
 		D5C8713019C1670200941759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C8712F19C1670200941759 /* Images.xcassets */; };
 		D5C8713319C1670200941759 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5C8713119C1670200941759 /* LaunchScreen.xib */; };
 		D5C8713F19C1670300941759 /* Dropbox_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C8713E19C1670300941759 /* Dropbox_SwiftTests.swift */; };
+		D5D52B9B19C92C9E0069ACFC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D52B9A19C92C9E0069ACFC /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		D5C8713819C1670300941759 /* Dropbox-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dropbox-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C8713D19C1670300941759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C8713E19C1670300941759 /* Dropbox_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropbox_SwiftTests.swift; sourceTree = "<group>"; };
+		D5D52B9A19C92C9E0069ACFC /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				D5C8712819C1670200941759 /* AppDelegate.swift */,
 				D5C8712A19C1670200941759 /* ViewController.swift */,
 				D5C8712C19C1670200941759 /* Main.storyboard */,
+				D5D52B9A19C92C9E0069ACFC /* WelcomeViewController.swift */,
 				D563A81119C52DFD0020FDC1 /* FilesViewController.swift */,
 				D563A80F19C520050020FDC1 /* PhotoDetailViewController.swift */,
 				D563A80D19C4CDEB0020FDC1 /* SettingsViewController.swift */,
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D57B0FA819C40116001EFFB9 /* CreateAccountViewController.swift in Sources */,
+				D5D52B9B19C92C9E0069ACFC /* WelcomeViewController.swift in Sources */,
 				D57B0FA619C3FCC2001EFFB9 /* SignInRootViewController.swift in Sources */,
 				D563A80E19C4CDEB0020FDC1 /* SettingsViewController.swift in Sources */,
 				D57B0FAA19C40128001EFFB9 /* SignInViewController.swift in Sources */,
