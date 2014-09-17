@@ -13,6 +13,7 @@ class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var starButton: UIButton!
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

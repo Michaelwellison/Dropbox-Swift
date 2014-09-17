@@ -259,25 +259,15 @@
                                     <action selector="onTapWelcomeButton:" destination="3i9-ep-Ilf" eventType="touchUpInside" id="drN-ZK-HIa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2di-1A-Nuk">
-                                <rect key="frame" x="0.0" y="81" width="320" height="170"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gxv-kL-XpU" kind="modal" animates="NO" id="FOq-3K-Fda"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" id="bdw-FE-ccR">
                                 <rect key="frame" x="99" y="81" width="221" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Michael Ellison" clearsOnBeginEditing="YES" minimumFontSize="17" id="AtA-Bl-kw1">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Michael" clearsOnBeginEditing="YES" minimumFontSize="17" id="AtA-Bl-kw1">
                                         <rect key="frame" x="8" y="6" width="205" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                        <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -286,7 +276,7 @@
                                 <rect key="frame" x="99" y="125" width="221" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="peC-6U-vV4">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Ellison" minimumFontSize="17" id="peC-6U-vV4">
                                         <rect key="frame" x="8" y="6" width="205" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -299,8 +289,8 @@
                                 <rect key="frame" x="61" y="168" width="259" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="SPY-br-c4h">
-                                        <rect key="frame" x="0.0" y="6" width="257" height="30"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="michaelwellison@gmail.com" minimumFontSize="17" id="SPY-br-c4h">
+                                        <rect key="frame" x="8" y="6" width="249" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -312,19 +302,52 @@
                                 <rect key="frame" x="91" y="211" width="229" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="Z4b-IJ-Vbu">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" minimumFontSize="17" id="Z4b-IJ-Vbu">
                                         <rect key="frame" x="8" y="6" width="213" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" id="7PJ-W9-7Dn">
+                                <rect key="frame" x="0.0" y="352" width="320" height="216"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.94117653369903564" green="0.95294123888015747" blue="0.96078437566757202" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Sg-sQ-6xB">
+                                <rect key="frame" x="0.0" y="252" width="320" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="endEditing:" destination="3i9-ep-Ilf" eventType="touchUpInside" id="SWH-mU-Ycy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vWX-LU-gPL">
+                                <rect key="frame" x="254" y="28" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9647059440612793" green="0.96862751245498657" blue="0.96862751245498657" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gxv-kL-XpU" kind="modal" animates="NO" id="UWn-IN-dbg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="jFd-fH-W7H"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="SPY-br-c4h" id="iWF-hs-N4h"/>
+                        <outlet property="firstNameTextField" destination="AtA-Bl-kw1" id="9lI-l2-Z4H"/>
+                        <outlet property="lastNameTextField" destination="peC-6U-vV4" id="0GY-qK-dmj"/>
+                        <outlet property="passwordTextField" destination="Z4b-IJ-Vbu" id="jmC-Qp-X0H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oMt-n8-vMK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1292,11 +1315,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Mpb-8z-GTP"/>
-        <segue reference="cR7-j5-muq"/>
-        <segue reference="38f-8S-Yyk"/>
-        <segue reference="ZQr-aq-e5Y"/>
         <segue reference="UeI-rr-4eH"/>
+        <segue reference="LgY-GB-yZ7"/>
+        <segue reference="cR7-j5-muq"/>
+        <segue reference="elY-Ic-mgd"/>
+        <segue reference="ZQr-aq-e5Y"/>
         <segue reference="R2f-I6-12y"/>
     </inferredMetricsTieBreakers>
 </document>
